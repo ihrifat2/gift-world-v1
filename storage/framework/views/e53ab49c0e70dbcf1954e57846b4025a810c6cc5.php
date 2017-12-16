@@ -4,7 +4,7 @@
 <head profile="http://www.w3.org/1999/xhtml/vocab">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="shortcut icon" href="http://shoppica.themesnap.net/misc/favicon.ico" type="image/vnd.microsoft.icon" />  
-    <title>Gift World</title>
+    <title>Admin Panel</title>
     <link type="text/css" rel="stylesheet" href="../css/x.css" media="all" />
     <link type="text/css" rel="stylesheet" href="../css/t.css" media="all" />
     <link type="text/css" rel="stylesheet" href="../css/m.css" media="all" />
@@ -45,7 +45,7 @@
                     <li><a href="<?php echo e(url('/logout')); ?>">Logout</a></li>
                 </ul>
             </div>
-            <?php endif; ?>
+            
 
     <!-- ---------------------- -->
     <!--     Layout start       -->
@@ -53,47 +53,42 @@
 
     <div class="container_12">
         <div class="row">
-            <table align="center" style="position:absolute; right:250px;top:250px; color:black; font-size:15px"  class=" table-bordered ">
-
-                <thead>
+            <table align="center" style="position:absolute; right:370px;top:300px; color:black; border=1"  class=" table-bordered ">
+                <thead style="font-size:20px">
                 <tr>
                     <th class="text-center">Card type</th>
                     <th class="text-center">Email</th>
                     <th class="text-center">Mobile</th>
                     <th class="text-center">Address</th>
-
                 </tr>
                 </thead>
-                <tbody>
+                <tbody style="font-size:15px " >
                 <?php foreach($sales_silver_s as $sales_silver): ?>
                     <tr>
                     <td class="text-center">Silver</td>
-                        <td class="text-center"><?php echo e($sales_silver->email); ?></td>
+                        <td class="text-center" style="padding-right: 15px"><?php echo e($sales_silver->email); ?></td>
                         <td class="text-center"><?php echo e($sales_silver->mobile); ?></td>
                         <td class="text-center"><?php echo e($sales_silver->address); ?></td>
-
                     </tr>
                 <?php endforeach; ?>
                 </tbody>
-                <tbody>
+                <tbody style="font-size:15px ">
                 <?php foreach($sales_gold as $sales_silver): ?>
                     <tr>
                     <td class="text-center">Gold</td>
-                        <td class="text-center"><?php echo e($sales_silver->email); ?></td>
+                        <td class="text-center" style="padding-right: 15px"><?php echo e($sales_silver->email); ?></td>
                         <td class="text-center"><?php echo e($sales_silver->mobile); ?></td>
                         <td class="text-center"><?php echo e($sales_silver->address); ?></td>
-
                     </tr>
                 <?php endforeach; ?>
                 </tbody>
-                <tbody>
+                <tbody style="font-size:15px ">
                 <?php foreach($sales_platinum as $sales_silver): ?>
                     <tr>
                     <td class="text-center">Platinum</td>
-                        <td class="text-center"><?php echo e($sales_silver->email); ?></td>
+                        <td class="text-center" style="padding-right: 15px"><?php echo e($sales_silver->email); ?></td>
                         <td class="text-center"><?php echo e($sales_silver->mobile); ?></td>
                         <td class="text-center"><?php echo e($sales_silver->address); ?></td>
-
                     </tr>
                 <?php endforeach; ?>
                 </tbody>
@@ -101,7 +96,7 @@
 
         </div>
     </div>
-
+    <?php endif; ?>
 
 </body>
 </html>

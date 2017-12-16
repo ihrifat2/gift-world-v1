@@ -84,20 +84,20 @@
                                         <tr>
                                             <td valign="middle">
                                             <span class="s_icon_32">
-                                                <span class="s_icon s_phone_32"></span>5234452 <br />2334455676</span>
+                                                <span class="s_icon s_phone_32"></span>12345 <br />56789</span>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td valign="middle">
                                                 <span class="s_icon_32">
-                                                <span class="s_icon s_fax_32"></span>01989067812 <br />01811678931</span>
+                                                <span class="s_icon s_fax_32"></span>019123456<br />018123456</span>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td valign="middle"><span class="s_icon_32">
                                                 <span class="s_icon s_mail_32"></span>
-                                                    <a href="mailto:bill@example.com">bill@example.com</a> <br />
-                                                    <a href="mailto:john@example.com">john@example.com</a>
+                                                    <a href="mailto:bill@example.com">imran@example.com</a> <br />
+                                                    <a href="mailto:john@example.com">hadid@example.com</a>
                                                 </span>
                                             </td>
                                         </tr>
@@ -231,7 +231,7 @@
             </div>
             <div class="grid_12 border_eee"></div>
         </div>
-        <div id="payments" class="right clearfix">
+        <!-- <div id="payments" class="right clearfix">
             <div class="region region-footer-bottom-right">
                 <div id="block-block-4" class="block block-block">
                     <div>
@@ -254,7 +254,7 @@
                     </div>
                 </div>  
             </div>
-        </div>
+        </div> -->
     </div> 
 
 </div>

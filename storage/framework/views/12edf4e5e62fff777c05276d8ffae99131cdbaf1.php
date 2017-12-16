@@ -6,7 +6,7 @@
                     <div>
                         <form action="http://shoppica.themesnap.net/" method="post" id="search-block-form" accept-charset="UTF-8">
                             <div>
-                                <div id="site_search">
+                                <!-- <div id="site_search">
                                     <div id="search_bar" class="clearfix">
                                         <input type="text" value="" name="search_block_form" id="filter_keyword" />
                                         <input type="hidden" name="form_build_id" value="form-55nZaPUHxAU_ARLAYQW0avzAaehB0brxIp5RZJpJ8eI" />
@@ -14,7 +14,7 @@
                                         <input type="submit" class="s_button_1 s_secondary_color_bgr s_text" name="op" id="searchsubmit" value="Search" />
                                         <a class="s_advanced s_main_color" href="http://shoppica.themesnap.net/search/node">Advanced Search</a>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </form>
                     </div>
@@ -32,12 +32,12 @@
                         </ul>
                     </div>
                     </li>
-                    <li><a href="catalog/1.html">Gift For</a>
+                    <li><a href="/">Gift For</a>
                         <div class="s_submenu">&nbsp;
                             <ul class="s_list_1 clearfix">
-                                <li><a href="catalog/2.html">Gift For Him</a></li>
-                                <li><a href="catalog/3.html">Gift For Her</a></li>
-                                <li><a href="catalog/4.html">Gift for Baby</a></li>
+                                <li><a href="/">Gift For Him</a></li>
+                                <li><a href="/">Gift For Her</a></li>
+                                <li><a href="/">Gift for Baby</a></li>
                             </ul>
                         </div>
                     </li>

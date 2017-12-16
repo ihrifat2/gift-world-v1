@@ -56,7 +56,7 @@
                     <div>
                         <form action="http://shoppica.themesnap.net/" method="post" id="search-block-form" accept-charset="UTF-8">
                             <div>
-                                <div id="site_search">
+                                <!-- <div id="site_search">
                                     <div id="search_bar" class="clearfix">
                                         <input type="text" value="" name="search_block_form" id="filter_keyword" />
                                         <input type="hidden" name="form_build_id" value="form-55nZaPUHxAU_ARLAYQW0avzAaehB0brxIp5RZJpJ8eI" />
@@ -64,7 +64,7 @@
                                         <input type="submit" class="s_button_1 s_secondary_color_bgr s_text" name="op" id="searchsubmit" value="Search" />
                                         <a class="s_advanced s_main_color" href="http://shoppica.themesnap.net/search/node">Advanced Search</a>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </form>
                     </div>
@@ -82,12 +82,12 @@
                         </ul>
                     </div>
                     </li>
-                    <li><a href="catalog/1.html">Gift For</a>
+                    <li><a href="/">Gift For</a>
                         <div class="s_submenu">&nbsp;
                             <ul class="s_list_1 clearfix">
-                                <li><a href="catalog/2.html">Gift For Him</a></li>
-                                <li><a href="catalog/3.html">Gift For Her</a></li>
-                                <li><a href="catalog/4.html">Gift for Baby</a></li>
+                                <li><a href="/">Gift For Him</a></li>
+                                <li><a href="/">Gift For Her</a></li>
+                                <li><a href="/">Gift for Baby</a></li>
                             </ul>
                         </div>
                     </li>
@@ -288,20 +288,20 @@
                                         <tr>
                                             <td valign="middle">
                                             <span class="s_icon_32">
-                                                <span class="s_icon s_phone_32"></span>5234452 <br />2334455676</span>
+                                                <span class="s_icon s_phone_32"></span>12345 <br />56789</span>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td valign="middle">
                                                 <span class="s_icon_32">
-                                                <span class="s_icon s_fax_32"></span>01989067812 <br />01811678931</span>
+                                                <span class="s_icon s_fax_32"></span>019123456<br />018123456</span>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td valign="middle"><span class="s_icon_32">
                                                 <span class="s_icon s_mail_32"></span>
-                                                    <a href="mailto:bill@example.com">bill@example.com</a> <br />
-                                                    <a href="mailto:john@example.com">john@example.com</a>
+                                                    <a href="mailto:bill@example.com">imran@example.com</a> <br />
+                                                    <a href="mailto:john@example.com">hadid@example.com</a>
                                                 </span>
                                             </td>
                                         </tr>
@@ -435,7 +435,7 @@
             </div>
             <div class="grid_12 border_eee"></div>
         </div>
-        <div id="payments" class="right clearfix">
+        <!-- <div id="payments" class="right clearfix">
             <div class="region region-footer-bottom-right">
                 <div id="block-block-4" class="block block-block">
                     <div>
@@ -458,7 +458,7 @@
                     </div>
                 </div>  
             </div>
-        </div>
+        </div> -->
     </div> 
 
 </div>
